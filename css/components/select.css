@@ -1,0 +1,7 @@
+.select {
+    padding: var(--button-padding);
+    appearance: none;
+    border-radius: 5px;
+    outline: none;
+    font-size: var(--button-font-size);
+}

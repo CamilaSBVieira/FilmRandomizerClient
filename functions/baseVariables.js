@@ -1,0 +1,16 @@
+export const button = document.getElementById('randomize');
+export const errosLog = document.getElementById('erros');
+export const posterImg = document.getElementById('movieImg');
+export const genreSelect = document.getElementById('genres');
+export const moviePoster = document.getElementById('movie-suggestion_poster');
+export const movieTitle = document.getElementById('movie-suggestion_title');
+export const movieDescription = document.getElementById('movie-suggestion_description');
+export const movieTagline = document.getElementById('movie-suggestion_tagline');
+export const movieDuration = document.getElementById('movie-suggestion_duration');
+export const movieDate = document.getElementById('movie-suggestion_date');
+export const movieRating = document.getElementById('movie-suggestion_rating');
+export const movieGenres = document.getElementById('movie-suggestion_genres');
+export const whereToWatch = document.getElementById('movie-suggestion_where-to-watch');
+export const castAndCrew = document.getElementById('cast-crew');
+export const hideShow = document.getElementById('hide-show');
+export const separate = document.querySelector('.separate');

@@ -1,0 +1,19 @@
+:root {
+    --title-font-size: 44px;
+    --title-font-size-desk: 70px;
+    --button-font-size: 20px;
+
+    --button-padding: 1rem;
+    --inner-padding: 1.5rem;
+    --small-padding: .5rem;
+    --medium-padding: 1rem;
+
+    --black: black;
+    --white: white;
+    --shadow: #332E30;
+
+    --popcorn: '\1F37F';
+    --bullet: '\2022';
+
+    --line-height: 1.5;
+}

@@ -1,0 +1,11 @@
+.choose-genre {
+    display: flex;
+    flex-direction: column;
+    gap: var(--medium-padding);
+}
+
+@media screen and (min-width: 435px) {
+    .choose-genre {
+        align-items: center;
+    }
+}

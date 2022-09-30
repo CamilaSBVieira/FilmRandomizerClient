@@ -1,0 +1,8 @@
+.choose-genre_form {
+    display: flex;
+    gap: var(--inner-padding);
+    flex-direction: column;
+}
+.choose-genre_form-label {
+    text-align: center;
+}

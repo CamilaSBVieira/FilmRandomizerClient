@@ -1,0 +1,31 @@
+.header_title {
+    line-height: 1.2;
+    height: calc((var(--title-font-size) * 2) + 2rem);
+    /* tamanho do título * 2 linhas + 1rem de padding + 1rem de padding */
+}
+.header_title span:nth-child(2) {
+    float: right;
+    clear: both;
+}
+.header_title span:first-child {
+    float: left;
+    clear: both;
+}
+.header_title span:first-child::before, .header_title span:nth-child(2)::after {
+    content: var(--popcorn);
+    font-size: 50px;
+}
+
+@media screen and (min-width: 435px) {
+    .header_title {
+        height: calc(var(--title-font-size-desk) + 2rem);
+        margin: 0 auto;
+        text-align: center;
+    }
+    .header_title span:first-child, .header_title span:nth-child(2) {
+        float: none;
+    }
+    .header_title span:first-child::before, .header_title span:nth-child(2)::after {
+        font-size: 80px;
+    }
+}

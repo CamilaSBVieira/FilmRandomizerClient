@@ -1,0 +1,12 @@
+.button {
+    background-color: var(--white);
+    border: none;
+    padding: var(--button-padding);
+    font-size: var(--button-font-size);
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+}
+.button:hover, .button:active {
+    box-shadow: inset 2px 2px 5px var(--shadow);
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/base/base.css">
+    <link rel="stylesheet" href="./css/components/header_title.css">
+    <link rel="stylesheet" href="./css/components/choose-genre.css">
+    <link rel="stylesheet" href="./css/components/choose-genre_form.css">
+    <link rel="stylesheet" href="./css/components/select.css">
+    <link rel="stylesheet" href="./css/components/movie-suggestion.css">
+    <title>Movie Randomizer</title>
+</head>
+
+<body>
+    <header class="header">
+        <h1 class="header_title title container"><span>Movie </span><span>Randomizer</span></h1>
+    </header>
+    <main>
+
+        <!-- CHOOSE GENRE FORM -->
+        <section class="choose-genre container">
+            <form class="choose-genre_form">
+                <label for="genres" class="choose-genre_form-label subtitle">Choose a genre</label>
+                <select name="genres" id="genres" class="chose-genere_form-select select">
+                </select>
+            </form>
+            <button id="randomize" class="button">Randomize</button>
+        </section>
+
+        <!-- SHOW MOVIE SUGGESTION -->
+        <section class="movie-suggestion container">
+
+            <figure id="movie-suggestion_poster">
+                <!-- MOVIE COVER -->
+                <img id="movieImg" loading="lazy"/>
+            </figure>
+
+            <div class="movie-suggestion_text">
+
+                <div id="movie-suggestion_tagline" class="movie-suggestion_tagline">
+                    <!-- TAGLINE -->
+                </div>
+
+                <div id="movie-suggestion_title" class="subtitle">
+                    <!-- MOVIE TITLE -->
+                </div>
+
+                <div class="movie-suggestion_info">
+                    <span id="movie-suggestion_date"></span>
+                    <span id="movie-suggestion_duration"></span>
+                    <span id="movie-suggestion_genres"></span>
+                    <div id="movie-suggestion_rating" class="movie-suggestion_rating"></div>
+                </div>
+
+                <div id="movie-suggestion_where-to-watch" class="movie-suggestion_watch">
+                    <!-- PLATAFORMS TO WATCH -->
+                </div>
+
+                <div id="movie-suggestion_description" class="movie-suggestion_description">
+                    <!-- DESCRIPTION -->
+                </div>
+
+                <!-- CAST & CREW INFO -->
+                <a id="hide-show" href="#cast-crew"></a>
+                <div id="cast-crew" class="cast-crew invisible"></div>
+            </div>
+            <!-- <div id="likeDislike"></div> -->
+        </section>
+
+        <!-- SHOW ERRORS -->
+        <div id="erros"></div>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+
+    </footer>
+</body>
+<script src="./functions/main.js" type="module"></script>
+
+</html>

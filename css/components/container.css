@@ -1,0 +1,3 @@
+.header_title.container, .choose-genre.container, .movie-suggestion.container {
+    padding: var(--medium-padding);
+}

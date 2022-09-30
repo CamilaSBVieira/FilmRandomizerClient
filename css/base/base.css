@@ -1,0 +1,25 @@
+@import url("./reset.css");
+@import url("variaveis.css");
+@import url("../components/container.css");
+@import url("../components/button.css");
+
+body {
+    background-color: var(--black);
+    color: var(--white);
+    font-size: 22px;
+}
+.title {
+    font-size: var(--title-font-size);
+    font-weight: bold;
+}
+.subtitle {
+    font-size: calc(var(--title-font-size) / 1.2);
+}
+@media screen and (min-width: 435px) {
+    .subtitle {
+        font-size: calc(var(--title-font-size-desk) / 1.2);
+    }
+    .title {
+        font-size: var(--title-font-size-desk);
+    }
+}
