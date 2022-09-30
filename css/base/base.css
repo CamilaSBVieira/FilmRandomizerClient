@@ -2,6 +2,7 @@
 @import url("variaveis.css");
 @import url("../components/container.css");
 @import url("../components/button.css");
+@import url("../components/footer.css");
 
 body {
     background-color: var(--black);
@@ -22,4 +23,10 @@ body {
     .title {
         font-size: var(--title-font-size-desk);
     }
+}
+a {
+    text-decoration: none;
+    color: var(--white);
+    font-weight: bold;
+    cursor: pointer;
 }

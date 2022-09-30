@@ -1,0 +1,6 @@
+footer {
+    text-align: center;
+}
+footer p {
+    padding-bottom: var(--small-padding);
+}

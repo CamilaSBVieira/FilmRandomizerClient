@@ -107,11 +107,7 @@
     display: flex;
 }
 #hide-show {
-    cursor: pointer;
     padding-top: var(--inner-padding);
-    font-weight: bold;
-    text-decoration: none;
-    color: var(--white);
 }
 @media screen and (min-width: 435px) {
         .cast-crew {
