@@ -6,6 +6,7 @@
     border-radius: 5px;
     outline: none;
     cursor: pointer;
+    color: var(--black);
 }
 .button:hover, .button:active {
     box-shadow: inset 2px 2px 5px var(--shadow);
