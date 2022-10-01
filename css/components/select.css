@@ -4,4 +4,5 @@
     border-radius: 5px;
     outline: none;
     font-size: var(--button-font-size);
+    color: var(--black);
 }
