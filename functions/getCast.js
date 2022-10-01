@@ -4,7 +4,7 @@ const getCast = async id => {
 
     const params = { id: id };
 
-    const urlToFetch = new URL(`http://localhost:5000/cast`);
+    const urlToFetch = new URL(`https://warm-woodland-45897.herokuapp.com/cast`);
     urlToFetch.search = new URLSearchParams(params).toString();
 
     try {

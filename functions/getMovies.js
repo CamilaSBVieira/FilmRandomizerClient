@@ -7,7 +7,7 @@ const getMovies = async (page) => {
     const selectedGenre = getGenreSelected();
     const params = { page: page, genre: selectedGenre };
 
-    const urlToFetch = new URL('http://localhost:5000/movies');
+    const urlToFetch = new URL('https://warm-woodland-45897.herokuapp.com/movies');
     urlToFetch.search = new URLSearchParams(params).toString();
 
     try {

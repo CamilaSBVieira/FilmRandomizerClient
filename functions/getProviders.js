@@ -5,7 +5,7 @@ const getProviders = async id => {
 
     const params = { id: id };
 
-    const urlToFetch = new URL(`http://localhost:5000/providers`);
+    const urlToFetch = new URL(`https://warm-woodland-45897.herokuapp.com/providers`);
     urlToFetch.search = new URLSearchParams(params).toString();
 
     try {

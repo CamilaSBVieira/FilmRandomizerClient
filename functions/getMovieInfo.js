@@ -4,8 +4,8 @@ const getMovieInfo = async movie => {
 
     const movieId = movie.id;
     const params = { id: movieId };
-
-    const urlToFetch = new URL(`http://localhost:5000/info?${movieId}`);
+    
+    const urlToFetch = new URL(`https://warm-woodland-45897.herokuapp.com/info}`);
     urlToFetch.search = new URLSearchParams(params).toString();
     
     try {

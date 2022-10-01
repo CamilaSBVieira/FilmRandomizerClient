@@ -2,7 +2,7 @@ import { errosLog } from './baseVariables.js';
 
 const getGenres = async () => {
 
-    const urlToFetch = `http://localhost:5000/genres`;
+    const urlToFetch = `https://warm-woodland-45897.herokuapp.com/genres`;
 
     try {
         const response = await fetch(urlToFetch);
