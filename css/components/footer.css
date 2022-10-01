@@ -1,7 +1,9 @@
 footer {
     text-align: center;
     padding: var(--small-padding);
+    box-shadow: 2px 2px 1rem var(--shadow);
 }
 footer p {
     padding-bottom: var(--small-padding);
+    font-size: 1.2rem;
 }
