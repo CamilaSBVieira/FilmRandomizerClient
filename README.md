@@ -1,4 +1,4 @@
-# Codecademy Challenge
+# Movie Suggestions using API
 
 This project was developed with JavaScript, CSS, HTML and uses The Movie Database API.
 
