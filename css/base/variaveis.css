@@ -16,4 +16,7 @@
     --bullet: '\2022';
 
     --line-height: 1.5;
+
+    --font-family: 'Roboto', sans-serif;
+    --font-family-secondary: 'Poppins', sans-serif;
 }
