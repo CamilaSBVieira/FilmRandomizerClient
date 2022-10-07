@@ -4,14 +4,14 @@ function showInfo(info) {
 
     posterImg.setAttribute('src', `https://image.tmdb.org/t/p/original/${info.poster_path}`);
 
-    movieTitle.innerHTML = info.title;
-    movieTagline.innerHTML = info.tagline;
-    movieDescription.innerHTML = info.overview;
-    movieDuration.innerHTML = `${info.runtime}m`;
+    movieTitle.innerText = info.title;
+    movieTagline.innerText = info.tagline;
+    movieDescription.innerText = info.overview;
+    movieDuration.innerText = `${info.runtime}m`;
     movieDuration.setAttribute('class', 'separate');
-    movieDate.innerHTML = info.release_date.substring(0, 4);
+    movieDate.innerText = info.release_date.substring(0, 4);
     movieDate.setAttribute('class', 'separate');
-    movieRating.innerHTML = info.vote_average;
+    movieRating.innerText = info.vote_average;
 
     if (info.vote_average < 5) {
         movieRating.style.backgroundColor = 'red';
@@ -27,7 +27,7 @@ function showInfo(info) {
         genres.push(genre.name);
     }
     
-    movieGenres.innerHTML = genres.join(', ');
+    movieGenres.innerText = genres.join(', ');
     movieGenres.setAttribute('class', 'separate');
 
     // GET IMDB RATING WITH IMDB API
