@@ -2,7 +2,25 @@ footer {
     text-align: center;
     padding: var(--inner-padding);
     font-family: var(--font-family-secondary);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 footer p {
+    font-size: 1rem;
+}
+footer figure {
+    width: 20%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+footer figure img {
+    display: block;
+    width: 30%;
+    heigth: auto;
+}
+footer figure figcaption {
     font-size: 1rem;
 }
