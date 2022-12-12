@@ -2,7 +2,7 @@ import { errosLog } from './baseVariables.js';
 
 const getGenres = async () => {
 
-    const urlToFetch = `https://warm-woodland-45897.herokuapp.com/genres`;
+    const urlToFetch = `http://filmrandomizerserver-env.eba-rdgduyps.us-east-1.elasticbeanstalk.com/genres`;
 
     try {
         const response = await fetch(urlToFetch);

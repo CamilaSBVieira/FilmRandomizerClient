@@ -5,7 +5,7 @@ const getProviders = async id => {
 
     const params = { id: id };
 
-    const urlToFetch = new URL(`https://warm-woodland-45897.herokuapp.com/providers`);
+    const urlToFetch = new URL(`http://filmrandomizerserver-env.eba-rdgduyps.us-east-1.elasticbeanstalk.com/providers`);
     urlToFetch.search = new URLSearchParams(params).toString();
 
     try {

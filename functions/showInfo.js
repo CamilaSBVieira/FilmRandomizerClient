@@ -1,8 +1,8 @@
-import { movieDate, movieDescription, movieDuration, movieGenres, movieRating, movieTagline, movieTitle, posterImg, separate } from "./baseVariables.js";
+import { movieDate, movieDescription, movieDuration, movieGenres, movieRating, movieTagline, movieTitle, posterImg, imgsLink } from "./baseVariables.js";
 
 function showInfo(info) {
 
-    posterImg.setAttribute('src', `https://image.tmdb.org/t/p/original/${info.poster_path}`);
+    posterImg.setAttribute('src', `${imgsLink}${info.poster_path}`);
 
     movieTitle.innerText = info.title;
     movieTagline.innerText = info.tagline;

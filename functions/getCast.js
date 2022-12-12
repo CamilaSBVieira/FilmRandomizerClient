@@ -4,7 +4,7 @@ const getCast = async id => {
 
     const params = { id: id };
 
-    const urlToFetch = new URL(`https://warm-woodland-45897.herokuapp.com/cast`);
+    const urlToFetch = new URL(`http://filmrandomizerserver-env.eba-rdgduyps.us-east-1.elasticbeanstalk.com/cast`);
     urlToFetch.search = new URLSearchParams(params).toString();
 
     try {

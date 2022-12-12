@@ -14,3 +14,4 @@ export const whereToWatch = document.getElementById('movie-suggestion_where-to-w
 export const castAndCrew = document.getElementById('cast-crew');
 export const hideShow = document.getElementById('hide-show');
 export const separate = document.querySelector('.separate');
+export const imgsLink = 'https://image.tmdb.org/t/p/original/'
