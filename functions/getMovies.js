@@ -7,7 +7,7 @@ const getMovies = async (page) => {
     const selectedGenre = getGenreSelected();
     const params = { page: page, genre: selectedGenre };
 
-    const urlToFetch = new URL('http://filmrandomizerserver-env.eba-rdgduyps.us-east-1.elasticbeanstalk.com/movies');
+    const urlToFetch = new URL('https://film-randomizer-server-camilasbvieira.vercel.app/movies');
     urlToFetch.search = new URLSearchParams(params).toString();
 
     try {

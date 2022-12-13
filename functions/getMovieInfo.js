@@ -5,7 +5,7 @@ const getMovieInfo = async movie => {
     const movieId = movie.id;
     const params = { id: movieId };
     
-    const urlToFetch = new URL(`http://filmrandomizerserver-env.eba-rdgduyps.us-east-1.elasticbeanstalk.com/info}`);
+    const urlToFetch = new URL(`https://film-randomizer-server-camilasbvieira.vercel.app/info}`);
     urlToFetch.search = new URLSearchParams(params).toString();
     
     try {

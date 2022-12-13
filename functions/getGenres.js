@@ -2,7 +2,7 @@ import { errosLog } from './baseVariables.js';
 
 const getGenres = async () => {
 
-    const urlToFetch = `http://filmrandomizerserver-env.eba-rdgduyps.us-east-1.elasticbeanstalk.com/genres`;
+    const urlToFetch = `https://film-randomizer-server-camilasbvieira.vercel.app/genres`;
 
     try {
         const response = await fetch(urlToFetch);
